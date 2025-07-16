@@ -62,7 +62,7 @@ const HomePage = () => {
           left={0}
           right={0}
           bottom={0}
-          bgImage={`url('${getImagePath('images/gallery/imgi_14_oceanlife-home-BG_result.webp')}')`}
+          bgImage={`url('${getImagePath('/images/gallery/imgi_14_oceanlife-home-BG_result.webp')}')`}
           bgPosition="center"
           bgSize="cover"
           opacity={0.4}
@@ -278,7 +278,7 @@ const HomePage = () => {
             <Box order={{ base: 1, md: 2 }} display="flex" justifyContent="center">
               <Image
                 alt={'Yachty AI Assistant Chat Interface'}
-                src={getImagePath('images/gallery/YachtyPhoneAppComncept.png')}
+                src={getImagePath('/images/gallery/YachtyPhoneAppComncept.png')}
                 objectFit={'contain'}
                 maxH={{ base: '400px', md: '600px' }}
                 w={'auto'}

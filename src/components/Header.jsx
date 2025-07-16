@@ -73,7 +73,7 @@ const Header = () => {
               <Stack direction="row" align="center" spacing={3}>
                 <Box height="50px" width="auto">
                   <Image
-                    src={getImagePath('images/logo/ocean-life-logo.png')}
+                    src={getImagePath('/images/logo/ocean-life-logo.png')}
                     alt="Ocean Life Yacht Services"
                     height="100%"
                     width="auto"
