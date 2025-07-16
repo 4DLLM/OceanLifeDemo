@@ -12,6 +12,7 @@ import {
   HStack
 } from '@chakra-ui/react';
 import { FaPaw, FaHeartbeat, FaCertificate, FaDog } from 'react-icons/fa';
+import { getImagePath } from '../utils/paths';
 
 const Feature = ({ title, text, icon }) => {
   return (
@@ -84,7 +85,7 @@ const AboutPage = () => {
               <Image
                 rounded="md"
                 alt="Family with goldendoodle"
-                src="/images/gallery/family-photo.jpg"
+                src={getImagePath("images/gallery/family-photo.jpg")}
                 objectFit="cover"
                 boxShadow="lg"
                 w="full"
@@ -139,7 +140,7 @@ const AboutPage = () => {
               <Image
                 rounded="xl"
                 alt="Bodybuilder holding an adorable Goldendoodle puppy"
-                src="/images/gallery/HealthDoodles.png"
+                src={getImagePath("images/gallery/HealthDoodles.png")}
                 objectFit="cover"
                 boxShadow="lg"
                 w="full"

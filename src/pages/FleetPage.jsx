@@ -27,6 +27,7 @@ import {
 import { useState } from 'react';
 import { FaAnchor, FaMapMarkerAlt, FaRuler, FaCalendarAlt } from 'react-icons/fa';
 import { MdSpeed, MdWaves } from 'react-icons/md';
+import { getImagePath } from '../utils/paths';
 
 const VesselCard = ({ vessel, onClick }) => {
   return (
@@ -101,7 +102,7 @@ const FleetPage = () => {
       name: "Miss Sip",
       make: "Riviera",
       length: "54'",
-      image: "/images/gallery/imgi_6_yacht-management-4-1.webp",
+      image: getImagePath("images/gallery/imgi_6_yacht-management-4-1.webp"),
       location: "Westshore Yacht Club",
       status: "Active",
       memberSince: "2023",
@@ -119,7 +120,7 @@ const FleetPage = () => {
       name: "Sea Dreams",
       make: "Princess",
       length: "62'",
-      image: "/images/gallery/imgi_7_yacht-management-1.webp",
+      image: getImagePath("images/gallery/imgi_7_yacht-management-1.webp"),
       location: "Tampa Bay",
       status: "Active",
       memberSince: "2022",
@@ -137,7 +138,7 @@ const FleetPage = () => {
       name: "Aqua Life",
       make: "Sea Ray",
       length: "48'",
-      image: "/images/gallery/imgi_8_yacht-management-4.webp",
+      image: getImagePath("images/gallery/imgi_8_yacht-management-4.webp"),
       location: "Davis Island Yacht Club",
       status: "Active",
       memberSince: "2023",
@@ -155,7 +156,7 @@ const FleetPage = () => {
       name: "Tampa Pride",
       make: "Hatteras",
       length: "58'",
-      image: "/images/gallery/imgi_9_yacht-management-2.webp",
+      image: getImagePath("images/gallery/imgi_9_yacht-management-2.webp"),
       location: "St. Petersburg",
       status: "In Service",
       memberSince: "2021",
@@ -173,7 +174,7 @@ const FleetPage = () => {
       name: "Blue Horizon",
       make: "Viking",
       length: "65'",
-      image: "/images/gallery/imgi_10_yacht-management-3.webp",
+      image: getImagePath("images/gallery/imgi_10_yacht-management-3.webp"),
       location: "Clearwater",
       status: "Active",
       memberSince: "2023",
@@ -191,7 +192,7 @@ const FleetPage = () => {
       name: "Sunset Seeker",
       make: "Azimut",
       length: "52'",
-      image: "/images/gallery/imgi_11_yacht-management-5.webp",
+      image: getImagePath("images/gallery/imgi_11_yacht-management-5.webp"),
       location: "Tampa Yacht & Country Club",
       status: "Active",
       memberSince: "2024",

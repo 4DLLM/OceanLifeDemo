@@ -23,66 +23,67 @@ import {
   WrapItem
 } from '@chakra-ui/react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
+import { getImagePath } from '../utils/paths';
 
 // Gallery images for Ocean Life Yacht Services
 const GALLERY_IMAGES = [
   {
     id: 1,
-    src: '/images/gallery/imgi_6_yacht-management-4-1.webp',
+    src: getImagePath('images/gallery/imgi_6_yacht-management-4-1.webp'),
     alt: 'Luxury yacht at marina',
     category: 'vessels',
   },
   {
     id: 2,
-    src: '/images/gallery/imgi_7_yacht-management-1.webp',
+    src: getImagePath('images/gallery/imgi_7_yacht-management-1.webp'),
     alt: 'Yacht maintenance service',
     category: 'maintenance',
   },
   {
     id: 3,
-    src: '/images/gallery/imgi_8_yacht-management-4.webp',
+    src: getImagePath('images/gallery/imgi_8_yacht-management-4.webp'),
     alt: 'Professional yacht cleaning',
     category: 'maintenance',
   },
   {
     id: 4,
-    src: '/images/gallery/imgi_9_yacht-management-2.webp',
+    src: getImagePath('images/gallery/imgi_9_yacht-management-2.webp'),
     alt: 'Engine room inspection',
     category: 'maintenance',
   },
   {
     id: 5,
-    src: '/images/gallery/imgi_10_yacht-management-3.webp',
+    src: getImagePath('images/gallery/imgi_10_yacht-management-3.webp'),
     alt: 'Yacht interior detailing',
     category: 'detailing',
   },
   {
     id: 6,
-    src: '/images/gallery/imgi_11_yacht-management-5.webp',
+    src: getImagePath('images/gallery/imgi_11_yacht-management-5.webp'),
     alt: 'Premium yacht services',
     category: 'vessels',
   },
   {
     id: 7,
-    src: '/images/gallery/imgi_2_seg1-image.webp',
+    src: getImagePath('images/gallery/imgi_2_seg1-image.webp'),
     alt: 'Yacht at sunset',
     category: 'vessels',
   },
   {
     id: 8,
-    src: '/images/gallery/imgi_3_seg2-image.webp',
+    src: getImagePath('images/gallery/imgi_3_seg2-image.webp'),
     alt: 'Professional crew services',
     category: 'crew',
   },
   {
     id: 9,
-    src: '/images/gallery/imgi_4_seg3-image.webp',
+    src: getImagePath('images/gallery/imgi_4_seg3-image.webp'),
     alt: 'Yacht delivery service',
     category: 'delivery',
   },
   {
     id: 10,
-    src: '/images/gallery/imgi_5_seg4-image.webp',
+    src: getImagePath('images/gallery/imgi_5_seg4-image.webp'),
     alt: 'Luxury yacht experience',
     category: 'vessels',
   }
@@ -337,4 +338,4 @@ const GalleryPage = () => {
   );
 };
 
-export default GalleryPage; 
+export default GalleryPage;

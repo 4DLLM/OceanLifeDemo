@@ -53,6 +53,7 @@ import {
   MdCloudSync
 } from 'react-icons/md';
 import { IoMdBoat } from 'react-icons/io';
+import { getImagePath } from '../utils/paths';
 
 const FeatureCard = ({ icon, title, description, features, colorScheme }) => {
   const bgColor = useColorModeValue('white', 'gray.800');
@@ -292,7 +293,7 @@ const PlatformPage = () => {
                       </List>
                     </VStack>
                     <Image
-                      src="/images/gallery/OwnerDashboard.png"
+                      src={getImagePath("images/gallery/OwnerDashboard.png")}
                       alt="Owner Dashboard"
                       rounded="md"
                       shadow="md"
@@ -334,7 +335,7 @@ const PlatformPage = () => {
                       </List>
                     </VStack>
                     <Image
-                      src="/images/gallery/TechnicianAP.png"
+                      src={getImagePath("images/gallery/TechnicianAP.png")}
                       alt="Technician App"
                       rounded="md"
                       shadow="md"
@@ -376,7 +377,7 @@ const PlatformPage = () => {
                       </List>
                     </VStack>
                     <Image
-                      src="/images/gallery/AdminPortal.png"
+                      src={getImagePath("images/gallery/AdminPortal.png")}
                       alt="Admin Portal"
                       rounded="md"
                       shadow="md"

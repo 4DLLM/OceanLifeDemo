@@ -17,6 +17,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { FaPhone } from 'react-icons/fa';
 import { MdEmergency } from 'react-icons/md';
+import { getImagePath } from '../utils/paths';
 
 const Header = () => {
   const { isOpen, onToggle, onClose } = useDisclosure();
@@ -72,22 +73,13 @@ const Header = () => {
               <Stack direction="row" align="center" spacing={3}>
                 <Box height="50px" width="auto">
                   <Image
-                    src="/images/logo/ocean-life-logo.png"
+                    src={getImagePath('images/logo/ocean-life-logo.png')}
                     alt="Ocean Life Yacht Services"
                     height="100%"
                     width="auto"
                     objectFit="contain"
                   />
                 </Box>
-                {/* Remove this Box if you don't want the text */}
-                {/* <Box display={{ base: 'none', md: 'block' }}>
-                  <Text fontSize="lg" fontWeight="bold" color="brand.primary">
-                    Ocean Life
-                  </Text>
-                  <Text fontSize="xs" color="gray.600" mt={-1}>
-                    Yacht Services
-                  </Text>
-                </Box> */}
               </Stack>
             </ChakraLink>
           </Flex>
