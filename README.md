@@ -13,7 +13,7 @@ Ocean Life Yacht Services is revolutionizing the yacht management industry with 
 
 ## 🌐 Live Website
 
-Visit our live site: [https://4dllm.github.io/](https://4dllm.github.io/)
+Visit our live site: [https://4dllm.github.io/OceanLifeDemo/](https://4dllm.github.io/OceanLifeDemo/)
 
 ## 🚀 Deployment Instructions
 
@@ -21,8 +21,8 @@ Visit our live site: [https://4dllm.github.io/](https://4dllm.github.io/)
 
 1. **Clone the repository** (if you haven't already):
    ```bash
-   git clone https://github.com/4dllm/4dllm.github.io.git
-   cd 4dllm.github.io
+   git clone https://github.com/4DLLM/OceanLifeDemo.git
+   cd OceanLifeDemo
    ```
 
 2. **Install dependencies**:
@@ -50,7 +50,7 @@ Visit our live site: [https://4dllm.github.io/](https://4dllm.github.io/)
    - Folder: `/docs`
    - Save
 
-Your site will be live at https://4dllm.github.io/ within minutes!
+Your site will be live at https://4dllm.github.io/OceanLifeDemo/ within minutes!
 
 ## 📁 Project Structure
 
@@ -129,7 +129,7 @@ npm run preview
 **Ocean Life Yacht Services**
 - Phone: (727) 888-4016
 - Location: Westshore Yacht Club, Tampa Bay
-- Website: https://4dllm.github.io/
+- Website: https://4dllm.github.io/OceanLifeDemo/
 
 ## 🔧 Troubleshooting
 
